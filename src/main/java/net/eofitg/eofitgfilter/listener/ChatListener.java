@@ -2,7 +2,6 @@ package net.eofitg.eofitgfilter.listener;
 
 import net.eofitg.eofitgfilter.EofitgFilter;
 import net.eofitg.eofitgfilter.config.FilterData;
-import net.eofitg.eofitgfilter.util.PlayerUtil;
 import net.eofitg.eofitgfilter.util.StringUtil;
 import net.minecraft.util.IChatComponent;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
@@ -36,8 +35,6 @@ public class ChatListener {
 
             if (useRegex) {
                 check = regexInit(check);
-                PlayerUtil.addMessage(check);
-                PlayerUtil.addMessage(unformattedText.matches(check) + " " + unformattedText);
                 if (unformattedText.matches(check)) return true;
                 if (check.contains(StringUtil.FORMAT_SYMBOL)) {
                     if (formattedText.matches(check)) return true;
