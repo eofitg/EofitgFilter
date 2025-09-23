@@ -1,0 +1,153 @@
+{
+  "enabled": true,
+  "filterList": [
+    {
+      "message": "*[OldAnimationsMod] Reconnecting to Database...*",
+      "regex": false
+    },
+    {
+      "message": "*[CPS Display] v2.2.2 has been installed",
+      "regex": false
+    },
+    {
+      "message": "*[Custom Crosshair Mod] New version available: 1.5.1-forge.",
+      "regex": false
+    },
+    {
+      "message": "*[Custom Crosshair Mod] New version available:",
+      "regex": false
+    },
+    {
+      "message": "*Failed! Top speed of *",
+      "regex": false
+    },
+    {
+      "message": "Not enough space around you to use this!",
+      "regex": false
+    },
+    {
+      "message": "*You can\u0027t place blocks here!*",
+      "regex": false
+    },
+    {
+      "message": "You purchased *",
+      "regex": false
+    },
+    {
+      "message": "You can only break blocks placed by a player!",
+      "regex": false
+    },
+    {
+      "message": "You must be on the ground to use this!",
+      "regex": false
+    },
+    {
+      "message": "*You can disable Challenges through any NPC in the Bed Wars lobby using the redstone on the Challenges page.*",
+      "regex": false
+    },
+    {
+      "message": "*You don\u0027t have enough *",
+      "regex": false
+    },
+    {
+      "message": "*Cross-teaming is not allowed! Report cross-teamers using /report.*",
+      "regex": false
+    },
+    {
+      "message": "*If you get disconnected use /rejoin to join back in the game.*",
+      "regex": false
+    },
+    {
+      "message": "Build height limit reached!",
+      "regex": false
+    },
+    {
+      "message": "*TEAM CHALLENGE ACTIVE!*",
+      "regex": false
+    },
+    {
+      "message": "*You have been eliminated!*",
+      "regex": false
+    },
+    {
+      "message": "*You were sent to a lobby because someone in your party left!*",
+      "regex": false
+    },
+    {
+      "message": "*    Iron, Gold, Emerald and Diamond from generators*",
+      "regex": false
+    },
+    {
+      "message": "*You cannot build any further down!*",
+      "regex": false
+    },
+    {
+      "message": "*[WATCHDOG ANNOUNCEMENT]*",
+      "regex": false
+    },
+    {
+      "message": "*Watchdog has banned *",
+      "regex": false
+    },
+    {
+      "message": "*Staff have banned *",
+      "regex": false
+    },
+    {
+      "message": "*You are AFK. Move around to return from AFK.*",
+      "regex": false
+    },
+    {
+      "message": "*You must wait another 1s*",
+      "regex": false
+    },
+    {
+      "message": "*You can use this again in 1 s*",
+      "regex": false
+    },
+    {
+      "message": "*                  to access powerful upgrades.*",
+      "regex": false
+    },
+    {
+      "message": "*You\u0027ve already purchased this item!*",
+      "regex": false
+    },
+    {
+      "message": "*You are now carrying x1 Comfy Pillows, bring it back to your shop keeper!*",
+      "regex": false
+    },
+    {
+      "message": "*Sending you to *",
+      "regex": false
+    },
+    {
+      "message": "^(?:\\u00a7[a-f0-9k-or]|\\s)*$",
+      "regex": true
+    },
+    {
+      "message": "*You cannot return items to another team\u0027s Shopkeeper!*",
+      "regex": false
+    },
+    {
+      "message": "*You can\u0027t break blocks here!*",
+      "regex": false
+    },
+    {
+      "message": "*You must wait 2 seconds between spray uses!*",
+      "regex": false
+    },
+    {
+      "message": "*Please don\u0027t spam the command!*",
+      "regex": false
+    },
+    {
+      "message": "*Blacklisted modifications are a bannable offense!*",
+      "regex": false
+    },
+    {
+      "message": "*Game ends in 1 minute!*",
+      "regex": false
+    }
+  ]
+}

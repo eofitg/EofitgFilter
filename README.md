@@ -55,3 +55,5 @@ Since formatting codes are decoded automatically, you can also write them explic
     } 
 ]
 ```
+
+[The config I am using](./docs/eofitg-filter.json)
