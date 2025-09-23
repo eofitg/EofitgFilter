@@ -1,0 +1,11 @@
+[
+{
+  "modid": "eofitgfilter",
+  "name": "EofitgFilter",
+  "description": "A very simple chat filter mod — just matching and ignoring.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/eofitg/EofitgFilter",
+  "authorList": ["eofitg"]
+}
+]
