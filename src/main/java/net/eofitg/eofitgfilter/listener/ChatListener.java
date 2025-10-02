@@ -29,12 +29,7 @@ public class ChatListener {
             String check = filter.message;
             boolean useRegex = filter.regex;
 
-            if (check.contains("*")) {
-                useRegex = true;
-            }
-
             if (useRegex) {
-                check = regexInit(check);
                 if (unformattedText.matches(check)) return true;
                 if (check.contains(StringUtil.FORMAT_SYMBOL)) {
                     if (formattedText.matches(check)) return true;
@@ -52,23 +47,6 @@ public class ChatListener {
         }
 
         return false;
-    }
-
-    private String regexInit(String msg) {
-        msg = msg.replace(" ", "\\ ");
-        msg = msg.replace(".", "\\.");
-        msg = msg.replace("*", ".*");  // for wildcard matching
-        msg = msg.replace("+", "\\+");
-        msg = msg.replace("$", "\\$");
-        msg = msg.replace("?", "\\?");
-        msg = msg.replace("^", "\\^");
-        msg = msg.replace("[", "\\[");
-        msg = msg.replace("]", "\\]");
-        msg = msg.replace("(", "\\(");
-        msg = msg.replace(")", "\\)");
-        msg = msg.replace("{", "\\{");
-        msg = msg.replace("}", "\\}");
-        return msg.replace("|", "\\|");
     }
 
 }

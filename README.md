@@ -8,8 +8,6 @@ A very simple chat filter mod — just matching and ignoring.
 
 - Automatically decodes Minecraft formatting codes
 
-- Supports **wildcard** matching
-
 - Supports **regex expression** matching
 
 ## Commands
@@ -29,7 +27,7 @@ Example for ignoring messages like
 ```json5
 [
     {
-        "message": "* joined the Lobby *!", 
+        "message": " joined the Lobby ", 
         "regex": false
     }, 
     // or 
@@ -45,7 +43,7 @@ Since formatting codes are decoded automatically, you can also write them explic
 ```json5
 [
     {
-        "message": "§l§a* §r§fjoined the Lobby §c*§f!", 
+        "message": " §r§fjoined the Lobby §c", 
         "regex": false
     }, 
     // or 
