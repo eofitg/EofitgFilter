@@ -148,6 +148,14 @@
     {
       "message": "Game ends in 1 minute!",
       "regex": false
+    },
+    {
+      "message": "Slow down! You can only use /tip every few seconds.",
+      "regex": false
+    },
+    {
+      "message": "You already tipped everyone that has boosters active, so there isn't anybody to be tipped right now!",
+      "regex": false
     }
   ]
 }
