@@ -2,10 +2,6 @@
   "enabled": true,
   "filterList": [
     {
-      "message": "[OldAnimationsMod] Reconnecting to Database...",
-      "regex": false
-    },
-    {
       "message": "[CPS Display] v2.2.2 has been installed",
       "regex": false
     },
